@@ -1,7 +1,7 @@
 import pytest
 import typing
 from shioaji.contracts import Stock
-from shioajiexample.deal_callback import DealCallback
+from sjexample.deal_callback import DealCallback
 
 
 @pytest.fixture()
