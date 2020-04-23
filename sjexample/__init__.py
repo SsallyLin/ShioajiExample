@@ -1,1 +1,1 @@
-from .deal_callback import DealCallback
+from .compose import ExampleCompose
