@@ -1,8 +1,7 @@
 # Shioaji Example
 
 
-[![codecov](https://codecov.io/gh/Yvictor/ShioajiExample/branch/master/graph/badge.svg?token=8l2H9QWmPi)](https://codecov.io/gh/Yvictor/ShioajiExample)
-
+[![codecov](https://codecov.io/gh/SsallyLin/ShioajiExample/branch/master/graph/badge.svg?token=X53AUT0270)](https://codecov.io/gh/SsallyLin/ShioajiExample)
 
 
 ## Getting Start
