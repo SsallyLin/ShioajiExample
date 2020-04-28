@@ -43,11 +43,9 @@ class TouchPriceCompose:
                 )
                 snapshot.total_volume = quote["VolSum"][0]
                 snapshot.volume = quote["Volume"][0]
-                print(self.infos)
         elif topic.startswith("QUT/"):
             code = topic.split("/")[-1]
             snapshot = self.infos.get(code, False)
             if snapshot:
                 snapshot.buy_price = quote["BidPrice"][0]
                 snapshot.sell_price = quote["AskPrice"][0]
-                print(self.infos)

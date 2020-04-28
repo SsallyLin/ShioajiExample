@@ -1,1 +1,1 @@
-from .compose import ExampleCompose
+from .compose import ExampleCompose, TouchPriceCompose
