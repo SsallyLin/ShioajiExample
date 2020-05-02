@@ -1,7 +1,7 @@
 import pytest
 import typing
 
-from sjexample.compose import DataFrameCompose
+from sjexample.df_compose import DataFrameCompose
 
 
 @pytest.fixture()
