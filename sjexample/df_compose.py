@@ -4,7 +4,6 @@ import pandas as pd
 import shioaji as sj
 
 
-
 class DataFrameCompose:
     def __init__(self, api: sj.Shioaji):
         self.api: sj.Shioaji = api

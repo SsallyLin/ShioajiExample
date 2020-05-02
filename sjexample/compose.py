@@ -3,8 +3,6 @@ from functools import partial
 from collections import deque, defaultdict
 import shioaji as sj
 from shioaji.data import Snapshot
-import numpy as np
-import pandas as pd
 
 
 class ExampleCompose:
@@ -51,14 +49,3 @@ class TouchPriceCompose:
             if snapshot:
                 snapshot.buy_price = quote["BidPrice"][0]
                 snapshot.sell_price = quote["AskPrice"][0]
-
-
-def split_data(rec, index):
-    sp_rec = {}
-    [
-        sp_rec.update({k: v[index] if isinstance(v, (list, tuple)) else v})
-        for k, v in rec.items()
-    ]
-    sp_rec["idx"] = index
-    return sp_rec
-
